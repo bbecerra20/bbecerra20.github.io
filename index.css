@@ -1,3 +1,26 @@
-h1 {
- color: orange; 
-}  
+.title {
+    text-align: left;
+    font-family: "Brush Script MT", cursive;
+    color: rgb(121, 44, 0);
+    font-size: x-large;
+}
+
+img {
+    text-align: right;
+    height: 200px;
+    float: right;
+}
+
+.menu {
+    font-family: 'Tangerine';
+    font-size: 60px;
+}
+
+.menu-list {
+    font-family: 'Tangerine';
+    font-size: 30px;
+}
+
+.menu-category {
+    text-align: center;
+}
