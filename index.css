@@ -1,7 +1,7 @@
 .title {
     text-align: left;
     font-family: "Brush Script MT", cursive;
-    color: rgb(121, 44, 0);
+    color: royalblue;
     font-size: x-large;
 }
 
@@ -14,6 +14,7 @@ img {
 .menu {
     font-family: 'Tangerine';
     font-size: 60px;
+    color: saddlebrown;
 }
 
 .menu-list {
@@ -23,4 +24,8 @@ img {
 
 .menu-category {
     text-align: center;
+}
+
+body {
+    background-color: tan;
 }
