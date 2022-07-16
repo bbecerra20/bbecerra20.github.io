@@ -1,6 +1,5 @@
-.h1 {
-    text-align: left;
-    font-family: "Brush Script MT", cursive;
+h1 {
+    text-align: center;
     color: royalblue;
     font-size: x-large;
 }
