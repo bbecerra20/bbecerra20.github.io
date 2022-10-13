@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+    color: red;
+    text-align: center;
+}
+
+.align_pics {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+h1 {
+    margin-top: 230px;
+}
+
+a {
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
