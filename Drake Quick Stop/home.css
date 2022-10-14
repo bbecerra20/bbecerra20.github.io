@@ -4,7 +4,7 @@
     --cornerRad: 4px;
   }
   body {
-    background-color: var(--primColor);
+    background-color: #00A4ccff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
