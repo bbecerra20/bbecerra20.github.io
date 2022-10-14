@@ -10,10 +10,6 @@ body {
     display: inline
 }
 
-.logo {
-    display: flex;
-}
-
 .location {
     color: rgb(165, 42, 42);
 }
