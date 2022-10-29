@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="order_online.css">
+  <link rel="stylesheet" href="order_online_2.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
 </head>
 <body>
   <div>
+    <header>
     <details>
       <summary></summary>
       <nav class="menu">
@@ -20,42 +22,14 @@
   </div>
   <div class="online_order">
     <h2>Order Online</h2>
-    <div>
-      <form action="/action_page.php">
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-      </form>
-    </div>
-    <div>
-      Card Number
-      <form>
-        <input type="number" required>
-      </form>
-    </div>
-    <div>
-      Exp. Date
-      <form>
-        <input type="date" required>
-      </form>
-    </div>
-    <div>
-      CVV
-      <form>
-        <input type="number" required>
-      </form>
-    </div>
-    <div>
-      Zip Cpde
-      <form>
-        <input type="number" required>
-      </form>
-    </div>
-    <div>
-      <form>
-        <input type="submit">
-      </form>
-    </div> 
+  </div>
+  <div>
+    <h1>Checkout</h1>
+    <form>
+      <input type="text" placeholder="Card number" maxlength="16">
+      <input type="text" placeholder="Name on card">
+      <input type="text" placeholder="MM/YY">
+      <input type="text" placeholder="CVC" maxlength="4">
+      <button type="submit">Pay Now
   </div>
 </body>
