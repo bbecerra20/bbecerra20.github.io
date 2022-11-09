@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(rgb(0, 255, 221), rgba(132, 0, 255, 0.863));
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.company_name {
+  color: rgb(255, 255, 255);
+  font-size: 45px;
+  font-family: Yeseva one, sans-serif;
+  padding: 50px;
+  flex: 1;
+  width: 100px;
+  text-align: center;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo_link {
+  margin-left: 28.9688px;
+  margin-right: 28.9688px;
+}
+
+.icons {
+  height: 150px;
+  width: 20px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-around;
+}
+
+.facebook {
+  width: 70px;
+}
+
+.instagram {
+  width: 70px;
+}
+
+.youtube {
+  width: 70px;
+}
+
+.navigation_menu {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); 
+
+* { 
+  margin: 0;
+  padding: 0; 
+  font-family: 'Poppins', sans-serif; 
+}
+
+ul { 
+  position: relative; 
+} 
+
+ul li { 
+  list-style: none; 
+  text-align: center; 
+} 
+
+ul li a { 
+  color: #333; 
+  text-decoration: none; 
+  font-size: 35px; 
+  padding: 5px 20px; 
+  display: inline-flex;
+  font-weight: 700; 
+  transition: 0.5s; 
+  margin: 0px;
+} 
+
+ul:hover li a { 
+  color: #0002; 
+} 
+
+ul li:hover a { 
+  color: #000; 
+  background: rgba(255,255,255,1); 
+} 
+
+ul li a:before { 
+  content: ''; 
+  position: absolute;
+  top: 50%; left: 40%; 
+  transform: translate(-50%,-50%); 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 5em; 
+  color: rgba(0, 0, 0, 0.1);  
+  z-index: -1; 
+  opacity: 0; 
+  font-weight: 700; 
+  text-transform: uppercase; 
+  letter-spacing: 50px; 
+  transition: letter-spacing 0.5s,left 0.5s;
+} 
+
+ul li a:hover:before { 
+  content: attr(data-text);
+  opacity: 1; 
+  left: 50%; 
+  letter-spacing: 10px; 
+
+} 
+
+ul li:nth-child(6n+1) a:before {
+  color: #81ecec; 
+}
+
+ul li:nth-child(6n+2) a:before { 
+  color: #ff7675; 
+} 
+
+ul li:nth-child(6n+3) a:before {
+  color: #55efc4; 
+} 
+
+ul li:nth-child(6n+4) a:before { 
+  color: #a29bfe; 
+} 
+ul li:nth-child(6n+5) a:before { 
+  color: #fd79a8; 
+} 
+
+ul li:nth-child(6n+6) a:before { 
+  color: #ffeaa7;
+}
