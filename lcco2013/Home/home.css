@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(rgb(0, 255, 221), rgba(132, 0, 255, 0.863));
+  background-image: linear-gradient(rgba(132, 0, 255, 0.863), rgb(0, 255, 221));
 }
 
 .header {
@@ -64,6 +64,7 @@ body {
 
 .facebook:active {
   background-color: white;
+  box-shadow: 6px 6px 60px rgb(0, 60, 255);
 }
 
 .instagram {
@@ -79,6 +80,7 @@ body {
 
 .instagram:active {
   background-color: white;
+  box-shadow: 6px 6px 60px rgb(247, 0, 255);
 }
 
 .youtube {
@@ -94,6 +96,7 @@ body {
 
 .youtube:active {
   background-color: white;
+  box-shadow: 6px 6px 60px red;
 }
 
 .navigation_menu {
