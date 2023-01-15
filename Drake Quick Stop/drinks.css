@@ -1,0 +1,17 @@
+.home {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("img/drinks-cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 30%;
+}
+
+.home h1 {
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+}
