@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <style>
+        #image {
+            display: none;
+        }
+
+        .button_section {
+            display: flex;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .img_section {
+            display: flex;
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button {
+            background-color: aqua;
+            padding: 10px;
+            border-radius: 25px;
+            border: none;
+            box-shadow: 10px 5px 5px lightblue;
+            transition: all 1s;
+        }
+
+        button:active {
+            margin-top: 3px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="button_section">
+        <button type="button"
+            onclick="show()" id="btnID">
+            Show Image
+        </button>
+    </div>
+    <div class="img_section">
+        <img id="image" src="img/PRIMO.jpg" height="500"/>
+    </div>
+    <script>
+        function show() {
+            document.getElementById('image')
+                    .style.display = "block";
+ 
+            document.getElementById('btnID')
+                    .style.display = "none";
+        }
+    </script>
+</body>
+ 
+</html>
